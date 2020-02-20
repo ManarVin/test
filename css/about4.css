@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #4f5a60;
+}
+.okm {
+    width: 960px;
+    margin: auto;
+    background: white;
+}
+/**************************** Header ***********************/
+header {
+    height: 64px;
+    background-color: white;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 64px;
+} 
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 320px;
+}
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+    
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 16px;
+}
+.menu ul li a:hover {
+	color: #7ed321;	
+}
+#grin {
+    color: #7ed321;
+}
+.namder {
+    position: absolute;
+    top: 10px;
+    right: 85px;
+    font-size: 12px;
+}
+.mail {
+    position: absolute;
+    bottom: 35px;
+    right: 6px;
+    display: block;
+    color: #5194e4;
+    text-decoration: none;
+    font-size: 11px;
+}
+/****************** build ***************************/
+.build {
+    height: 400px;
+    background-image: url(../Img/pic_scroll_1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 60px left 60px;
+    position: relative;
+}
+.build::before {
+    content: url(../Img/timeline_scroll.png);
+    display: block;
+    position: absolute;
+    width: 960px;
+    top: 365px;
+
+}
+.build h1 {
+    font-size: 36px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.build p {
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 15px;
+    color: #4f5a60;
+}
+/********************* fact *****************************************/
+.fact {
+    height: 350px;
+    margin-top: 80px;  
+}
+.fact p {
+    padding-bottom: 40px;
+    padding-left: 60px;
+    font-size: 20px;
+}
+.icom_rulers {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 30px;
+}
+.icom_rulers img {
+	padding: 0 30px;
+}
+.icom_rulers p {
+	text-align: center;
+	padding: 0 30px;
+}
+.icom_dialoge {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 35px;
+}
+.icom_dialoge img {
+	padding: 0 30px;
+}
+.icom_dialoge p {
+	text-align: center;
+	padding: 0 30px;
+}
+.icom_dosc {
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-right: 30px;
+}
+.icom_dosc img {
+	padding: 0 30px;
+}
+.icom_dosc p {
+	text-align: center;
+	padding: 0 30px;
+}
+.icom_coast {
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-right: 35px;
+}
+.icom_coast img {
+	padding: 0 30px;
+}
+.icom_coast p {
+	text-align: center;
+	padding: 0 30px;
+}
+/************************* steps ******************************************/
+.steps {
+    height: 500px;
+    background-image: url(../Img/map_bel.svg);
+    background-size: 700px 600px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.steps p {
+    padding-left: 80px;
+	color: #4a4a4a;
+}
+.steps p:first-child {
+	font-size: 20px;
+	padding-top: 100px;
+}
+.steps p:nth-child(2) {
+	font-size: 90px;
+	color: #ff9963;
+	padding-top: 60px;
+	font-weight: bold;
+}
+.steps p:last-child {
+	font-size: 20px;
+	padding-top: 20px;
+}
+/********************** cta_bg_build ************************************/
+.cta_bg_build {
+    height: 200px;
+    background: url(../Img/picMain2.jpg) no-repeat, center;
+    background-position: center;
+    position: relative;
+}
+.cta_bg_build h3 {
+    padding-left: 60px; 
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+.cta_bg_build p {
+    padding-left: 60px;
+    font-size: 20px;
+    color: white;
+}
+.form_mail {
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 30px;
+    border: none;
+    display: block;
+}
+.botom {
+    position: absolute;
+    top: 130px;
+    left: 60%;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: #7ccd23;
+    color: white;
+    border: none;
+    display: block;
+}
+/************************* Footer ****************************************/
+footer {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+}
+footer h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.nomer {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;   
+}
+.svz {
+    text-align: center;
+    color: #4a90e2;
+    font-size: 18px; 
+}
+.xz {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+}
